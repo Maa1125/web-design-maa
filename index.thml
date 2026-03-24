@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bootstrap Exercise Layout</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="page">
+
+    <!-- Top Navbar -->
+    <header class="topbar">
+      <div class="logo">⚙ Webjunto<sup>®</sup></div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <h1>Hello, world!</h1>
+      <p>Welcome to Bootstrap v3.3.7. Check out this awesome jumbotron!</p>
+      <button class="btn pink">LEARN MORE</button>
+    </section>
+
+    <!-- Main Content -->
+    <main class="content">
+
+      <!-- Left Section -->
+      <section class="left">
+        <h2>Heading goes here</h2>
+        <hr />
+        <p>
+          Cupcake ipsum dolor sit amet caramels halvah soufflé sugar plum.
+          Fruitcake lollipop tiramisu pastry halvah sweet lemon drops.
+          Jelly beans marshmallow jujubes. Pudding macaroon chocolate cake
+          chupa chups. Tootsie roll wafer jelly beans cotton candy jelly.
+          Liquorice chocolate cake tart jelly. Chocolate pastry liquorice
+          cupcake chocolate.
+        </p>
+
+        <!-- YouTube video -->
+        <div class="video-box">
+          <iframe
+            width="100%"
+            height="315"
+            src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+            title="YouTube video player"
+            frameborder="0"
+            allowfullscreen>
+          </iframe>
+        </div>
+
+        <div class="alert-box">
+          <span>ⓘ</span>
+          <p>Whoa! This is a super important alert!</p>
+        </div>
+      </section>
+
+      <!-- Right Sidebar -->
+      <aside class="right">
+
+        <div class="message-title">✉ MESSAGES <span class="badge">3</span></div>
+
+        <div class="message-card">
+          <div class="message-head">Welcome Candidate!</div>
+          <div class="message-body">
+            <p>
+              You are a Starfleet Academy candidate. Greet the Captain
+              in a <em>respectful</em> fashion.
+            </p>
+
+            <input type="text" placeholder="Input your greeting..." />
+            <button class="btn pink full">SEND</button>
+          </div>
+          <div class="message-foot">
+            I don't watch Star Trek and don't get this reference
+          </div>
+        </div>
+
+        <div class="vote-box">
+          <p>
+            Cast your vote! What do you think about space?
+            See vote progress bar below!
+          </p>
+
+          <div class="progress">
+            <div class="progress-left"></div>
+            <div class="progress-right"></div>
+          </div>
+
+          <div class="vote-buttons">
+            <button class="btn pink vote-btn">COOL</button>
+            <button class="btn green-outline vote-btn">LAME</button>
+          </div>
+        </div>
+
+      </aside>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      2017 All Rights Reserved, SomeCompany.
+    </footer>
+
+  </div>
+
+</body>
+</html>
